@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    /* Configurações básicas */
+    "target": "es2020",                              
+    "module": "commonjs",                              
+    "rootDir": "./src",                                
+    "outDir": "./dist",                               
+    "esModuleInterop": true,                          
+    "forceConsistentCasingInFileNames": true,         
+    
+    /* Configurações de Tipos */
+    "strict": true,                                  
+    "skipLibCheck": true,                              
+    
+    /* Configurações TypeORM / Decorators */
+    "experimentalDecorators": true,                    
+    "emitDecoratorMetadata": true,                     
+    
+    /* Mapeamento de Arquivos */
+    "sourceMap": true                                 
+  },
+  "include": [
+    "./src/**/*.ts"                                  
+  ],
+  "exclude": [
+    "node_modules"   
+  ]                                  
+}
